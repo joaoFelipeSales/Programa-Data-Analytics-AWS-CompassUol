@@ -4,6 +4,16 @@ Meu Nome é João Felipe Sales tenho 34 anos, atualmente morando na cidade de Pr
 
 Estou em transição de carreira, antes de começar a faculdade de ADS, eu tinha um Restaurante na cidade de Maringa-PR, por 7 anos tive minha empresa e infelizmente tive que fechar depois que a pandemia de coronavírus se intensificou final de 2020, começo 2021.
 
+No comeco do ano de 2022, por incentivo do meu irmao comecei a faculdade de ADS, e fiz alguns cursos.
+
+1. Introdução a Programação
+Pacetech - Infinite LearningPacetech - Infinite Learning
+Verificação emitida em jun de 2022
+2. Hiring Coders #3 na Trilha de Formação em Full Stack, Hiring Coders #3 na Trilha de Formação em Full Stack, 
+Gama Academy
+Verificação emitida em jun de 2022
+3. Tech Academy - StartSe University [Certificado](https://lms.startse.com/certificado/v2/62e293e41aa0ba726fbb04c4?studentId=6268547c8ca05b167fe976e5)
+
 Meu Hobby é cozinhar, gosto de reunir a família e cozinhar aos finais de semana, ou datas comemorativas, apesar de ter fechado meu Restaurante, ainda gosto de cozinhar!
 
 # Como me achar!!
