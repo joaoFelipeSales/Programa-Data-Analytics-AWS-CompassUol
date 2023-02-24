@@ -9,25 +9,25 @@ Meu Hobby é cozinhar, gosto de reunir a família e cozinhar aos finais de seman
 ## Conteudo do Programa de Bolsas CompassUol
 
 ### Sprint #1
-- [x]Git e Linux 
-- [ ] Metodologia Ágil
-- [ ]Segurança 
+[x]Git e Linux 
+[ ] Metodologia Ágil
+[ ]Segurança 
 ### Sprint #2 
-- [ ] SQL e Conceitos usados na área de Dados 
+[ ] SQL e Conceitos usados na área de Dados 
 ### Sprint #3 
-- [ ] Python
+[ ] Python
 ### Sprint #4 
-- [ ] Python Funcional, Containers e ML 
+[ ] ] Python Funcional, Containers e ML 
 ### Sprint #5 
-- [ ] Computação em Nuvem (AWS) 
+[ ] Computação em Nuvem (AWS) 
 ### Sprint #6 
-- [ ] Computação em Nuvem (AWS) 
+[ ] Computação em Nuvem (AWS) 
 ### Sprint #7 
-- Arquitetura Lambda / Apache Hadoop / Apache Spark 
+[ ] Arquitetura Lambda / Apache Hadoop / Apache Spark 
 ### Sprint #8 
-- [ ] Apache Spark Batch 
+[ ] Apache Spark Batch 
 ### Sprint #9 
-- [ ] Apache Spark Batch 
+[ ] Apache Spark Batch 
 ### Sprint #10 
-- [ ] Visualização de Dados 
-- [ ] Apresentação Final 
+[ ] Visualização de Dados 
+[ ] Apresentação Final 
