@@ -6,6 +6,12 @@ Estou em transição de carreira, antes de começar a faculdade de ADS, eu tinha
 
 Meu Hobby é cozinhar, gosto de reunir a família e cozinhar aos finais de semana, ou datas comemorativas, apesar de ter fechado meu Restaurante, ainda gosto de cozinhar!
 
+# Como me achar!!
+* https://github.com/joaoFelipeSales
+* [Linkedin](https://www.linkedin.com/in/jfsjfsales/)
+* [Facebook](https://www.facebook.com/joaofelipe.sales.5)
+* [Instagran](https://www.instagram.com/jfs.jfsales/)
+
 ## Conteudo do Programa de Bolsas CompassUol
 
 #### Sprint 1 [x] Git e Linux [ ] Metodologia Ágil [ ]Segurança 
