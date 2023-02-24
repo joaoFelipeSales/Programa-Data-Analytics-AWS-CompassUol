@@ -47,8 +47,9 @@ Meu Hobby é cozinhar, gosto de reunir a família e cozinhar aos finais de seman
 
 # Aprendizados da Sprint1
 
+![Logo GitHub](https://logosmarcas.net/github-logo/)
 **Aprendi na Sprint1(Git e Github)** 
-![LogoGitHub](C:\Users\Pichau\Desktop\Compass Uol\Repositorio CompassUol\img>Github.png)
+
 
 - *criar um repositório pelo VScode*
 - *como vincular ele com o Github*
