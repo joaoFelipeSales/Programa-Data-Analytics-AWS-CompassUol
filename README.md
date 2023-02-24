@@ -47,7 +47,7 @@ Meu Hobby é cozinhar, gosto de reunir a família e cozinhar aos finais de seman
 
 # Aprendizados da Sprint1
 
-**Aprendi na Sprint1[Git e Github]**
+**Aprendi na Sprint1(Git e Github)**
 - *criar um repositório pelo VScode*
 - *como vincular ele com o Github*
 - *adicionar arquivos ao projeto (git add)*
@@ -55,3 +55,14 @@ Meu Hobby é cozinhar, gosto de reunir a família e cozinhar aos finais de seman
 - *mandar as alteracoes para o projeto (git push)*
 - *receber um projeto do repositório (git pull)*
 - *Aprendi oque são Branch e como trabalhar em cada branch do projeto (branch é uma versao do projeto, para que cada dev. trabalhe em uma funcionalidade separadamente, depois da finalização do trabalho faz um marge com a branch master)*
+
+**Aprendi na Sprint1(Linux)**
+
+- *Configurar um MV*
+- *Comandos básicos no Shell*
+- *Manipular Conteúdos (Concatenacao)*
+- *Comandos de Gerenciamento do Sistema e Hardware*
+- *Gerenciamento de Permissões*
+- *Shell Script*
+- *Gerenciamento de Pacotes*
+- *Cron e Backup*
