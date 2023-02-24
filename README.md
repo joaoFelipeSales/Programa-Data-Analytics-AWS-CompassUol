@@ -47,7 +47,7 @@ Meu Hobby é cozinhar, gosto de reunir a família e cozinhar aos finais de seman
 
 # Aprendizados da Sprint1
 
-![Logo GitHub](https://logosmarcas.net/github-logo/);
+
 **Aprendi na Sprint1(Git e Github)** 
 
 
