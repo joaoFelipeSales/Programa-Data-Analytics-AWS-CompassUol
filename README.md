@@ -21,7 +21,7 @@ Meu Hobby é cozinhar, gosto de reunir a família e cozinhar aos finais de seman
 * [Linkedin](https://www.linkedin.com/in/jfsjfsales/)
 * [Facebook](https://www.facebook.com/joaofelipe.sales.5)
 * [Instagran](https://www.instagram.com/jfs.jfsales/)
-* [Portifolio](JoaoFelipeSales.github.io) **EM CONSTRUÇÃO**
+* [Portifolio](JoaoFelipeSales.github.io) * **EM CONSTRUÇÃO** *
 
 ## Conteudo do Programa de Bolsas CompassUol 
 
