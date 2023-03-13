@@ -27,7 +27,7 @@ Meu Hobby é cozinhar, gosto de reunir a família e cozinhar aos finais de seman
 
 **Sprint 1** [x] Git e Linux [ ] Metodologia Ágil [ ]Segurança 
 
-**Sprint 2** [ ] SQL e Conceitos usados na área de Dados 
+**Sprint 2** [x] SQL e Conceitos usados na área de Dados 
 
 **Sprint 3** [ ] Python
 
