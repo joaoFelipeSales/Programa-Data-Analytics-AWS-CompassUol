@@ -4,11 +4,29 @@
 
 def divide_lista(lista):
     tamanho = len(lista)
-    tamanho_parte = tamanho // 3  # tamanho de cada parte
-    sobra = tamanho % 3  # sobra de elementos para distribuir nas partes
-    partes = [lista[i*tamanho_parte:(i+1)*tamanho_parte+sobra] for i in range(3)]
-    return partes
+    terco = tamanho // 3
+    
+    # Verifica se a lista pode ser dividida em 3 partes iguais
+    if tamanho % 3 != 0:
+        return None
+    
+    # Divide a lista em três partes iguais
+    lista1 = lista[:terco]
+    lista2 = lista[terco:terco*2]
+    lista3 = lista[terco*2:]
+    
+    return [lista1, lista2, lista3]
 lista = [1, 2, 3, 4, 5, 6, 7, 8, 9, 10, 11, 12]
-partes = divide_lista(lista)
-print(partes)
+nova_lista = divide_lista(lista)
+
+print(nova_lista)  # [[1, 2, 3, 4], [5, 6, 7, 8], [9, 10, 11, 12]]
+
+ 
+
+
+
+
+
+
+
 
