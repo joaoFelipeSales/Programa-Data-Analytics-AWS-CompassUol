@@ -7,29 +7,27 @@
 # Desligue a Lampada,  Imprima: A lâmpada ainda está ligada? False
 
 class Lampada:
-    def __init__(self, estado):
-        self.estado = estado
-
-    def liga(self):
-        self.estado = True
-
-    def desliga(self):
-        self.estado = False
-
-    def esta_ligada(self):
-        return self.estado
+    def __init__(self, ligada):
+        self.ligada = ligada
     
-    # Criando objeto lampada com estado inicial como True
+    def liga(self):
+        self.ligada = True
+    
+    def desliga(self):
+        self.ligada = False
+    
+    def esta_ligada(self):
+        return self.ligada
+
+# Criando uma lâmpada ligada
 lampada = Lampada(True)
 
-# Ligar a lâmpada
-lampada.liga()
+# Verificando se a lâmpada está ligada
+print("A lâmpada está ligada?", lampada.esta_ligada()) # Saída: A lâmpada está ligada? True
 
-# Verificar se a lâmpada está ligada
-print("A lâmpada está ligada?", lampada.esta_ligada())
-
-# Desligar a lâmpada
+# Desligando a lâmpada
 lampada.desliga()
 
-# Verificar se a lâmpada ainda está ligada
-print("A lâmpada ainda está ligada?", lampada.esta_ligada())
+# Verificando se a lâmpada está desligada
+print("A lâmpada ainda está ligada?", lampada.esta_ligada()) # Saída: A lâmpada ainda está ligada? False
+

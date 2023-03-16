@@ -3,7 +3,6 @@
 
 with open("arquivo_texto.txt", "r") as f:
     conteudo = f.read()
-    conteudo = conteudo.replace("substituir isso", "por isso")
     print(conteudo)
 
 

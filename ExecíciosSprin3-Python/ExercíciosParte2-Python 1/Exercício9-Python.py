@@ -7,4 +7,4 @@ idades = [19, 28, 25, 31]
 
 for i, (primeiroNome, sobreNome) in enumerate(zip(primeirosNomes, sobreNomes)):
     idade = idades[i]
-    print(f"{i} - {primeiroNome} {sobreNome} está com {idade} anos.")
+    print(f"{i} - {primeiroNome} {sobreNome} está com {idade} anos")

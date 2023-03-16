@@ -2,14 +2,13 @@
 # variado de parâmetros nomeados e imprime o valor de cada parâmetro recebido.
 # Teste sua função com os seguintes parâmetros: (1, 3, 4, 'hello', parametro_nomeado='alguma coisa', x=20)
 
-def imprime_parametros(*args, **kwargs):
-    print("Argumentos posicionais:")
+def print_params(*args, **kwargs):
+    print("Parâmetros não nomeados:")
     for arg in args:
         print(arg)
-    
-    print("Argumentos nomeados:")
+    print("Parâmetros nomeados:")
     for key, value in kwargs.items():
         print(f"{key} = {value}")
 
-    
-imprime_parametros(1, 3, 4, 'hello', parametro_nomeado='alguma coisa', x=20)
+print_params(1, 3, 4, 'hello', parametro_nomeado='alguma coisa', x=20)
+

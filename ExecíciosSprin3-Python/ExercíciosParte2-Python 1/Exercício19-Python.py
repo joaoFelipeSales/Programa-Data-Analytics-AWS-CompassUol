@@ -1,31 +1,28 @@
 # Calcule o valor mínimo, valor máximo, valor médio e a mediana da lista gerada na célula abaixo: 
 # Obs.: Lembrem-se, para calcular a mediana a lista deve estar ordenada! 
-import random 
+
+import numbers as np
+import random
+
+# amostra aleatoriamente 50 números do intervalo 0...500
 random_list = random.sample(range(500),50)
-# Use as variáveis abaixo para representar cada operação matemática
-# mediana/media/valor_minimo/valor_maximo 
 
 # ordena a lista
-random_list.sort()
-
-# calcula o valor mínimo
-valor_minimo = random_list[0]
-
-# calcula o valor máximo
-valor_maximo = random_list[-1]
+random_list_sorted = sorted(random_list)
 
 # calcula a mediana
-n = len(random_list)
-if n % 2 == 0:
-    mediana = (random_list[n // 2 - 1] + random_list[n // 2]) / 2
-else:
-    mediana = random_list[n // 2]
+mediana = np.median(random_list_sorted)
 
 # calcula a média
-media = sum(random_list) / len(random_list)
+media = np.mean(random_list)
 
-# exibe os resultados
-print("Valor mínimo: ", valor_minimo)
-print("Valor máximo: ", valor_maximo)
-print("Mediana: ", mediana)
-print("Média: ", media)
+# encontra o valor mínimo e máximo
+valor_minimo = min(random_list)
+valor_maximo = max(random_list)
+
+# imprime os resultados
+print("Mediana:", mediana)
+print("Média:", media)
+print("Valor mínimo:", valor_minimo)
+print("Valor máximo:", valor_maximo)
+
