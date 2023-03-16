@@ -2,15 +2,13 @@
 # a lista recebida dividida em 3 partes iguais. Teste sua implementação com a lista abaixo
 
 
-def dividir_em_tres_partes(lista):
+def divide_lista(lista):
     tamanho = len(lista)
-    tamanho_parte = tamanho // 3
-    
-    parte1 = lista[:tamanho_parte]
-    parte2 = lista[tamanho_parte:2*tamanho_parte]
-    parte3 = lista[2*tamanho_parte:]
-    
-    return parte1, parte2, parte3
-
+    tamanho_parte = tamanho // 3  # tamanho de cada parte
+    sobra = tamanho % 3  # sobra de elementos para distribuir nas partes
+    partes = [lista[i*tamanho_parte:(i+1)*tamanho_parte+sobra] for i in range(3)]
+    return partes
 lista = [1, 2, 3, 4, 5, 6, 7, 8, 9, 10, 11, 12]
-dividir_em_tres_partes(lista)
+partes = divide_lista(lista)
+print(partes)
+
