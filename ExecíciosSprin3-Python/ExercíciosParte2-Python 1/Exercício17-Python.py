@@ -1,5 +1,5 @@
-# Escreva uma função que recebe como parâmetro uma lista e retorna 3 listas:
-# a lista recebida dividida em 3 partes iguais. Teste sua implementação com a lista abaixo
+""" Escreva uma função que recebe como parâmetro uma lista e retorna 3 listas:
+    a lista recebida dividida em 3 partes iguais. Teste sua implementação com a lista abaixo """
 
 
 def dividir_em_tres_partes(lista):
