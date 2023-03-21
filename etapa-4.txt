@@ -1,1 +1,1 @@
-A média de número de filmes por ator é 37.88
+O filme mais frequente é The Avengers com uma frequência de 6.
