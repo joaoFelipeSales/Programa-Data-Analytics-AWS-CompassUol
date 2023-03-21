@@ -1,6 +1,5 @@
 # 1-Apresente o ator/atriz com maior número de filmes e a respectiva quantidade.
 dados = []
-data = []
 
 with open('actors.csv', 'r') as arquivo:
     linhas = arquivo.readlines()
