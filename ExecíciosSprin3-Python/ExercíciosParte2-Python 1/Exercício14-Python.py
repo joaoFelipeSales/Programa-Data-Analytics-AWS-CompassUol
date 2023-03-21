@@ -3,11 +3,17 @@
 # Teste sua função com os seguintes parâmetros: (1, 3, 4, 'hello', parametro_nomeado='alguma coisa', x=20)
 
 def imprimir_parametros(*args, **kwargs):
-    parametros = locals()
-    for key, value in parametros.items():
-        print(key, ':', value)
+    for arg in args:
+        print(arg)
+    
+    for key, value in kwargs.items():
+        print("{} = {}".format(key, value))
+
 
 imprimir_parametros(1, 3, 4, 'hello', parametro_nomeado='alguma coisa', x=20)
+
+
+
 
 
 
