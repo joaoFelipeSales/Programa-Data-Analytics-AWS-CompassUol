@@ -31,30 +31,40 @@ for registro in dados:
         max_num_movies = num_movies
         max_actor = registro['Actor']
 
-resultado = "O ator/atriz com o maior número de filmes é {} com um total de {} filmes.".format(max_actor, max_num_movies)
+resultado = "O ator/atriz com o maior número de filmes é {} com {} filmes.".format(max_actor, max_num_movies)
 
 print(resultado)
 
-with open('etapa-1.txt', 'w') as arquivo:
-    arquivo.write(resultado)
-
 # 2-Apresente a  média de faturamento bruto por ator.
 
-faturamento_por_ator = {}
+total_gross = 0
+num_filmes = 0
 
-for registro in dados:
-    actor = registro['Actor']
-    gross = float(registro['Total Gross'].replace('$', '').replace(',', ''))
-    if actor in faturamento_por_ator:
-        faturamento_por_ator[actor]['total'] += gross
-        faturamento_por_ator[actor]['filmes'] += 1
-    else:
-        faturamento_por_ator[actor] = {'total': gross, 'filmes': 1}
+with open('actors.csv', 'r') as arquivo:
+    linhas = arquivo.readlines()
+    cabecalho = linhas[0].strip().split(',')
+    for linha in linhas[1:]:
+        valores = []
+        valor = ""
+        entre_aspas = False
+        for i in range(len(linha)):
+            if linha[i] == ',' and not entre_aspas:
+                valores.append(valor.strip())
+                valor = ""
+            elif linha[i] == '"':
+                entre_aspas = not entre_aspas
+            else:
+                valor += linha[i]
+        valores.append(valor.strip())
+        registro = {}
+        for i in range(len(cabecalho)):
+            registro[cabecalho[i]] = valores[i]
+        total_gross += float(registro['Total Gross'].replace('$', '').replace(',', ''))
+        num_filmes += 1
 
-resultado = ''
-for actor, valores in faturamento_por_ator.items():
-    media = valores['total'] / valores['filmes']
-    resultado += " {} : ${:,.2f} \n".format(actor, media)
+media_gross = total_gross / num_filmes
+
+resultado = "A média de ganhos brutos por Ator é ${:,.2f}".format(media_gross)
 
 print(resultado)
 
@@ -90,7 +100,7 @@ for actor, media in media_por_ator.items():
         max_media = media
         max_actor = actor
 
-resultado = "O ator/atriz com a maior média de faturamento por filme é {} com uma média de ${:,.2f} por filme.".format(max_actor, max_media)
+resultado = "O ator/atriz com a maior média de faturamento por filme é {} com ${:,.2f} por filme.".format(max_actor, max_media)
 
 print(resultado)
 
@@ -111,7 +121,7 @@ for registro in dados:
         else:
             frequencia_filmes[filme] = 1
 
-# Encontra o(s) nome(s) de filme(s) com a maior frequência
+#4 Encontra o(s) nome(s) de filme(s) com a maior frequência
 max_frequencia = 0
 filmes_max_frequencia = []
 for filme, frequencia in frequencia_filmes.items():
@@ -123,14 +133,14 @@ for filme, frequencia in frequencia_filmes.items():
 
 # Cria a mensagem de saída
 if len(filmes_max_frequencia) == 1:
-    resultado = "O filme mais frequente é {} com uma frequência de {}.".format(filmes_max_frequencia[0], max_frequencia)
+    resultado = "O filme {} com {} frequências.".format(filmes_max_frequencia[0], max_frequencia)
 
 print(resultado)
 
 with open('etapa-4.txt', 'w') as arquivo:
     arquivo.write(resultado)
 
-## criar lista de tuplas com nome do ator e faturamento total
+#A lista dos atores ordenada pelo faturamento bruto total, em ordem decrescente.
 faturamento_total = []
 for registro in dados:
     actor = registro['Actor']
@@ -151,10 +161,8 @@ for tupla in faturamento_total_sorted:
 
 print(resultado)
 
-# salvar resultado no arquivo "etapa-5.txt"
 with open('etapa-5.txt', 'w') as arquivo:
     arquivo.write(resultado)
-
 
 
 
