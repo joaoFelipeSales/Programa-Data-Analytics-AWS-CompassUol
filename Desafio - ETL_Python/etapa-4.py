@@ -47,7 +47,7 @@ for filme, frequencia in frequencia_filmes.items():
 
 # Cria a mensagem de saída
 if len(filmes_max_frequencia) == 1:
-    resultado = "O filme {} com {} frequências.".format(filmes_max_frequencia[0], max_frequencia)
+    resultado = "O filme com mais frequência é {} com {} frequências.".format(filmes_max_frequencia[0], max_frequencia)
 
 print(resultado)
 

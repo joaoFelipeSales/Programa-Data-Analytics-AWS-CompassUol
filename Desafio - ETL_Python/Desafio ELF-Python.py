@@ -121,7 +121,7 @@ for registro in dados:
         else:
             frequencia_filmes[filme] = 1
 
-#4 Encontra o(s) nome(s) de filme(s) com a maior frequência
+# 4 Encontra o(s) nome(s) de filme(s) com a maior frequência
 max_frequencia = 0
 filmes_max_frequencia = []
 for filme, frequencia in frequencia_filmes.items():
@@ -140,7 +140,7 @@ print(resultado)
 with open('etapa-4.txt', 'w') as arquivo:
     arquivo.write(resultado)
 
-#A lista dos atores ordenada pelo faturamento bruto total, em ordem decrescente.
+#5. A lista dos atores ordenada pelo faturamento bruto total, em ordem decrescente.
 faturamento_total = []
 for registro in dados:
     actor = registro['Actor']
