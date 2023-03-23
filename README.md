@@ -29,7 +29,7 @@ Meu Hobby é cozinhar, gosto de reunir a família e cozinhar aos finais de seman
 
 **Sprint 2** [x] SQL e Conceitos usados na área de Dados 
 
-**Sprint 3** [ ] Python
+**Sprint 3** [x] Python
 
 **Sprint 4** [ ] Python Funcional, Containers e ML 
 
