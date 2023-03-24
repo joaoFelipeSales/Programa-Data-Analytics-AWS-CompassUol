@@ -25,7 +25,7 @@ Meu Hobby é cozinhar, gosto de reunir a família e cozinhar aos finais de seman
 
 ## Conteudo do Programa de Bolsas CompassUol 
 
-**Sprint 1** [x] Git e Linux [ ] Metodologia Ágil [ ]Segurança 
+**Sprint 1** [x] Git e Linux [ ] Metodologia Ágil [x]Segurança 
 
 **Sprint 2** [x] SQL e Conceitos usados na área de Dados 
 

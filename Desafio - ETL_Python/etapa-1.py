@@ -3,12 +3,12 @@ dados = []
 
 with open('actors.csv', 'r') as arquivo:
     linhas = arquivo.readlines()
-    cabecalho = linhas[0].strip().split(',')
+    cabecalho = linhas[0].strip().split(',') # tira o cabecalho
     for linha in linhas[1:]:
         valores = []
         valor = ""
         entre_aspas = False
-        for i in range(len(linha)):
+        for i in range(len(linha)): # tira as as ""
             if linha[i] == ',' and not entre_aspas:
                 valores.append(valor.strip())
                 valor = ""
