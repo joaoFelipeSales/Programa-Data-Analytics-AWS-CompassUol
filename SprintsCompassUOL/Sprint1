@@ -1,5 +1,26 @@
-Conteudo da Sprint1
+Conteudo e Aprendizado da Sprint1
 
 1- Git e GitHub do básico ao avançado (c/ gist e GitHub Pages)
 
+**Aprendi na Sprint1(Git e Github)** 
+
+- *criar um repositório pelo VScode*
+- *como vincular ele com o Github*
+- *adicionar arquivos ao projeto (git add)*
+- *salvar alteracoes no Projeto (git commit)*
+- *mandar as alteracoes para o projeto (git push)*
+- *receber um projeto do repositório (git pull)*
+- *Aprendi oque são Branch e como trabalhar em cada branch do projeto (branch é uma versao do projeto, para que cada dev. trabalhe em uma funcionalidade separadamente, depois da finalização do trabalho faz um marge com a branch master)*
+
 2- Administração de Sistemas GNU/Linux: Fundamentos e Prática
+
+**Aprendi na Sprint1(Linux)**
+
+- *Configurar um MV*
+- *Comandos básicos no Shell*
+- *Manipular Conteúdos (Concatenacao)*
+- *Comandos de Gerenciamento do Sistema e Hardware*
+- *Gerenciamento de Permissões*
+- *Shell Script*
+- *Gerenciamento de Pacotes*
+- *Cron e Backup*
