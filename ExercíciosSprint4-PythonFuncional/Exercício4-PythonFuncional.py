@@ -10,3 +10,7 @@
     [ 3+6 , -7-4.9, 8*-8 , 10/2 , 8+4 ] 
     Obter o maior dos valores 12
     Na resolução da atividade você deverá aplicar as seguintes funções: max - zip - map"""
+
+def calcular_valor_maximo(operadores, operandos):
+    valores = list(map(lambda op, opd: eval(str(opd[0]) + op + str(opd[1])), operadores, operandos))
+    return max(valores)

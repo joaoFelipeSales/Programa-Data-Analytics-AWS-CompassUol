@@ -11,3 +11,17 @@
     Nome: Maria Mendes Notas: [7, 3, 3] Média: 4.33
     Em seu desenvolvimento você deverá utilizar lambdas e as seguintes funções: round - map - sorted"""
 
+import csv
+
+with open('estudantes.csv', newline='') as csvfile:
+    reader = csv.reader(csvfile)
+    for row in sorted(reader, key=lambda x: x[0]):
+        if len(row) == 6:  
+            notas = sorted(map(int, row[1:]), reverse=True)[:3]
+            media = round(sum(notas)/3, 2)
+            print(f"Nome: {row[0]} Notas: {notas} Média: {media}")
+
+
+
+        
+
