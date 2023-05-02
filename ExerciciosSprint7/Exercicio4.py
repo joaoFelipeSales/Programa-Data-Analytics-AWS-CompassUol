@@ -2,7 +2,7 @@
 
 import pandas as pd
 
-# carregando o arquivo actors.csv
+# carregando o arquivo 
 df = pd.read_csv('actors.csv')
 
 # contando a frequência de cada filme
