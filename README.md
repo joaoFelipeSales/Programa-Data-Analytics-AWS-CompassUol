@@ -47,11 +47,11 @@ Meu Hobby é cozinhar, gosto de reunir a família e cozinhar aos finais de seman
 
 
 **Programa de Bolsas CompassUol - Readme**
-Este é um repositório que contém informações sobre o Programa de Bolsas CompassUol, no qual tive a oportunidade de participar. Durante o programa, tive a oportunidade de aprender e aprofundar meus conhecimentos em uma variedade de tópicos relacionados à tecnologia. O programa é dividido em várias sprints, cada uma focada em um conjunto específico de habilidades. A seguir, descrevo brevemente cada sprint e os tópicos abordados.
+Este é um repositório que contém informações sobre o Programa de Bolsas CompassUol, no qual tive a oportunidade de participar. Durante o programa, tive a oportunidade de aprender e aprofundar meus conhecimentos em uma variedade de tópicos relacionados à tecnologia. O programa é dividido em várias sprints, cada uma focada em um conjunto específico de habilidades. A seguir, *descrevo brevemente* cada sprint e os tópicos abordados. Consultar conteudo detalhado do aprendizado nos links ao final de cada topico!
 
 **Sprint 1: Git e Linux**
 Na primeira sprint, tive a oportunidade de aprender sobre controle de versão usando o Git e a explorar o sistema operacional Linux. Essas habilidades são essenciais para o desenvolvimento colaborativo de software e para trabalhar em ambientes de linha de comando.
-CONTEUDO DETALHADO - LINK -https://github.com/joaoFelipeSales/Programa-Data-Analytics-AWS-CompassUol/blob/main/SprintsCompassUOL/Sprint1.txt
+**CONTEUDO DETALHADO** - [Sprint1] -https://github.com/joaoFelipeSales/Programa-Data-Analytics-AWS-CompassUol/blob/main/SprintsCompassUOL/Sprint1.txt
 
 **Sprint 2: SQL e Conceitos usados na área de Dados**
 Durante a segunda sprint, concentrei meus estudos em SQL (Structured Query Language) e nos conceitos fundamentais usados na área de dados. Aprendi a escrever consultas SQL para recuperar e manipular dados em bancos de dados relacionais.
