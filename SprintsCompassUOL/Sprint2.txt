@@ -1,0 +1,55 @@
+1. SQL (Structured Query Language):
+SQL é uma linguagem de consulta estruturada usada para gerenciar e manipular dados em bancos de dados
+ relacionais. Com o SQL, é possível realizar diversas operações, como consultar, inserir, atualizar e
+ excluir dados de tabelas.
+
+Alguns conceitos importantes relacionados ao SQL incluem:
+
+- Consultas SELECT: Com o SQL, você pode escrever consultas SELECT para recuperar dados de uma ou mais
+ tabelas em um banco de dados. É possível especificar as colunas desejadas, aplicar filtros com cláusulas
+ WHERE e ordenar os resultados com ORDER BY.
+
+- Manipulação de dados: Além de consultar dados, o SQL permite inserir novos registros em tabelas com 
+a cláusula INSERT, atualizar registros existentes com a cláusula UPDATE e excluir registros com a 
+cláusula DELETE.
+
+- Junções (joins): As junções são usadas para combinar dados de diferentes tabelas com base em uma 
+relação entre elas. As junções podem ser internas (INNER JOIN), externas (LEFT JOIN, RIGHT JOIN) ou
+ cruzadas (CROSS JOIN), permitindo que você obtenha informações relacionadas de várias tabelas.
+
+- Funções agregadas: O SQL oferece uma variedade de funções agregadas, como COUNT, SUM, AVG, MIN e MAX,
+ que permitem calcular estatísticas sobre conjuntos de dados. Essas funções são úteis para realizar 
+ operações como contagem de registros, cálculo de médias e determinação de valores mínimos e máximos.
+
+2. Conceitos usados na área de dados:
+Além do SQL, a segunda sprint também abordou conceitos fundamentais usados na área de dados. 
+Esses conceitos fornecem uma base sólida para trabalhar com dados e realizar análises.
+
+Aqui estão alguns dos conceitos essenciais:
+
+- Banco de dados relacional: Um banco de dados relacional é uma coleção de tabelas relacionadas que
+ armazenam dados estruturados. Cada tabela é composta por colunas (atributos) e linhas (registros).
+  Os bancos de dados relacionais são amplamente utilizados para armazenar e organizar dados em aplicações 
+  empresariais.
+
+- Modelagem de dados: A modelagem de dados envolve a criação de diagramas e esquemas para representar 
+a estrutura dos dados em um banco de dados. Isso inclui a identificação de entidades, relacionamentos 
+e atributos, ajudando a garantir a consistência e a integridade dos dados.
+
+- Normalização: A normalização é um processo usado para organizar dados em um banco de dados relacional,
+ reduzindo a redundância e a inconsistência. A normalização segue uma série de regras para dividir as 
+ informações em tabelas relacionadas, minimizando a duplicação e melhorando a eficiência do banco de dados.
+
+- Modelagem dimensional: A modelagem dimensional é um conceito usado em data warehousing e business 
+intelligence. Ela envolve a criação de estruturas de dados otimizadas para análise, como tabelas de 
+fatos e dimensões, permitindo consultas eficientes e a geração de relatórios.
+
+- ETL (Extract, Transform, Load): O ETL é um processo usado para extrair dados de várias fontes, 
+transformá-los em um formato adequado e carregá-los em um data warehouse ou em um banco de dados 
+para análise. Esse processo é essencial para integrar dados de diferentes sistemas e garantir a 
+qualidade dos dados.
+
+Esses são apenas alguns dos tópicos abordados na segunda sprint. O conhecimento de SQL e dos 
+conceitos relacionados à área de dados é fundamental para trabalhar com bancos de dados relacionais,
+realizar consultas e análises, além de fornecer uma base sólida para o desenvolvimento de habilidades
+mais avançadas na área de dados.
