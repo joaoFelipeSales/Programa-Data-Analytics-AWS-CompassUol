@@ -51,6 +51,7 @@ Este é um repositório que contém informações sobre o Programa de Bolsas Com
 
 **Sprint 1: Git e Linux**
 Na primeira sprint, tive a oportunidade de aprender sobre controle de versão usando o Git e a explorar o sistema operacional Linux. Essas habilidades são essenciais para o desenvolvimento colaborativo de software e para trabalhar em ambientes de linha de comando.
+CONTEUDO DETALHADO - LINK -https://github.com/joaoFelipeSales/Programa-Data-Analytics-AWS-CompassUol/blob/main/SprintsCompassUOL/Sprint1.txt
 
 **Sprint 2: SQL e Conceitos usados na área de Dados**
 Durante a segunda sprint, concentrei meus estudos em SQL (Structured Query Language) e nos conceitos fundamentais usados na área de dados. Aprendi a escrever consultas SQL para recuperar e manipular dados em bancos de dados relacionais.
