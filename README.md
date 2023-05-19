@@ -67,19 +67,19 @@ Na terceira sprint, dediquei meu tempo para aprender a linguagem de programaçã
 **Sprint 4: Python Funcional, Containers e ML**
 Durante a quarta sprint, aprofundei meus conhecimentos em Python, explorando a programação funcional, o uso de containers, como o Docker, e tive uma introdução ao aprendizado de máquina (ML). Aprender a usar essas ferramentas e conceitos foi fundamental para desenvolver aplicativos escaláveis e manipular grandes volumes de dados.
 
-**CONTEÚDO DETALHADO** -[Sprint4]()
+**CONTEÚDO DETALHADO** -[Sprint4]() * EM CONSTRUÇÃO *
 
 **Sprint 5: Computação em Nuvem (AWS)**
 Na quinta sprint, fui introduzido à computação em nuvem, com foco na plataforma Amazon Web Services (AWS). Aprendi os conceitos fundamentais da AWS, como a criação e gerenciamento de instâncias de servidor virtual, armazenamento em nuvem e serviços de banco de dados.
 
-**CONTEÚDO DETALHADO** -[Sprint5]()
+**CONTEÚDO DETALHADO** -[Sprint5]() * EM CONSTRUÇÃO *
 
 **Sprint 6: Computação em Nuvem (AWS)**
 A sexta sprint continuou a explorar a computação em nuvem, com ênfase em tópicos avançados da AWS. Aprendi sobre serviços como balanceamento de carga, escalabilidade automática, monitoramento e gerenciamento de recursos na nuvem.
 
-**CONTEÚDO DETALHADO** -[Sprint6]()
+**CONTEÚDO DETALHADO** -[Sprint6]() * EM CONSTRUÇÃO *
 
 **Sprint 7: Arquitetura Lambda / Apache Hadoop / Apache Spark**
 Durante a sétima sprint, mergulhei na arquitetura Lambda, no Apache Hadoop e no Apache Spark. Essas tecnologias são amplamente utilizadas para processamento de big data e análise em escala. Aprendi sobre a arquitetura Lambda, que combina fluxos de dados em tempo real e processamento em lote, e como utilizar o Hadoop e o Spark para trabalhar com grandes conjuntos de dados.
 
-**CONTEÚDO DETALHADO** -[Sprint7]()
+**CONTEÚDO DETALHADO** -[Sprint7]() * EM CONSTRUÇÃO *
