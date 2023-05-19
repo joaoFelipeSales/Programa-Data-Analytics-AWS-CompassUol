@@ -35,9 +35,9 @@ Meu Hobby é cozinhar, gosto de reunir a família e cozinhar aos finais de seman
 
 **Sprint 5** [x] Computação em Nuvem (AWS) 
 
-**Sprint 6** [ ] Computação em Nuvem (AWS) 
+**Sprint 6** [X] Computação em Nuvem (AWS) 
 
-**Sprint 7** [ ] Arquitetura Lambda / Apache Hadoop / Apache Spark 
+**Sprint 7** [X] Arquitetura Lambda / Apache Hadoop / Apache Spark 
 
 **Sprint 8** [ ] Apache Spark Batch 
 
@@ -46,28 +46,26 @@ Meu Hobby é cozinhar, gosto de reunir a família e cozinhar aos finais de seman
 **Sprint 10** [ ] Visualização de Dados [ ] Apresentação Final 
 
 
-# Aprendizados da Sprint1
+**Programa de Bolsas CompassUol - Readme**
+Este é um repositório que contém informações sobre o Programa de Bolsas CompassUol, no qual tive a oportunidade de participar. Durante o programa, tive a oportunidade de aprender e aprofundar meus conhecimentos em uma variedade de tópicos relacionados à tecnologia. O programa é dividido em várias sprints, cada uma focada em um conjunto específico de habilidades. A seguir, descrevo brevemente cada sprint e os tópicos abordados.
 
+**Sprint 1: Git e Linux**
+Na primeira sprint, tive a oportunidade de aprender sobre controle de versão usando o Git e a explorar o sistema operacional Linux. Essas habilidades são essenciais para o desenvolvimento colaborativo de software e para trabalhar em ambientes de linha de comando.
 
-**Aprendi na Sprint1(Git e Github)** 
+**Sprint 2: SQL e Conceitos usados na área de Dados**
+Durante a segunda sprint, concentrei meus estudos em SQL (Structured Query Language) e nos conceitos fundamentais usados na área de dados. Aprendi a escrever consultas SQL para recuperar e manipular dados em bancos de dados relacionais.
 
+**Sprint 3: Python**
+Na terceira sprint, dediquei meu tempo para aprender a linguagem de programação Python. Python é amplamente utilizado na ciência de dados e automação de tarefas. Nesta sprint, adquiri conhecimentos básicos sobre a linguagem e sua sintaxe.
 
-- *criar um repositório pelo VScode*
-- *como vincular ele com o Github*
-- *adicionar arquivos ao projeto (git add)*
-- *salvar alteracoes no Projeto (git commit)*
-- *mandar as alteracoes para o projeto (git push)*
-- *receber um projeto do repositório (git pull)*
-- *Aprendi oque são Branch e como trabalhar em cada branch do projeto (branch é uma versao do projeto, para que cada dev. trabalhe em uma funcionalidade separadamente, depois da finalização do trabalho faz um marge com a branch master)*
+**Sprint 4: Python Funcional, Containers e ML**
+Durante a quarta sprint, aprofundei meus conhecimentos em Python, explorando a programação funcional, o uso de containers, como o Docker, e tive uma introdução ao aprendizado de máquina (ML). Aprender a usar essas ferramentas e conceitos foi fundamental para desenvolver aplicativos escaláveis e manipular grandes volumes de dados.
 
-**Aprendi na Sprint1(Linux)**
+**Sprint 5: Computação em Nuvem (AWS)**
+Na quinta sprint, fui introduzido à computação em nuvem, com foco na plataforma Amazon Web Services (AWS). Aprendi os conceitos fundamentais da AWS, como a criação e gerenciamento de instâncias de servidor virtual, armazenamento em nuvem e serviços de banco de dados.
 
+**Sprint 6: Computação em Nuvem (AWS)**
+A sexta sprint continuou a explorar a computação em nuvem, com ênfase em tópicos avançados da AWS. Aprendi sobre serviços como balanceamento de carga, escalabilidade automática, monitoramento e gerenciamento de recursos na nuvem.
 
-- *Configurar um MV*
-- *Comandos básicos no Shell*
-- *Manipular Conteúdos (Concatenacao)*
-- *Comandos de Gerenciamento do Sistema e Hardware*
-- *Gerenciamento de Permissões*
-- *Shell Script*
-- *Gerenciamento de Pacotes*
-- *Cron e Backup*
+**Sprint 7: Arquitetura Lambda / Apache Hadoop / Apache Spark**
+Durante a sétima sprint, mergulhei na arquitetura Lambda, no Apache Hadoop e no Apache Spark. Essas tecnologias são amplamente utilizadas para processamento de big data e análise em escala. Aprendi sobre a arquitetura Lambda, que combina fluxos de dados em tempo real e processamento em lote, e como utilizar o Hadoop e o Spark para trabalhar com grandes conjuntos de dados.
