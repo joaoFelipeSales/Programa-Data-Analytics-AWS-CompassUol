@@ -62,7 +62,7 @@ Durante a segunda sprint, concentrei meus estudos em SQL (Structured Query Langu
 **Sprint 3: Python**
 Na terceira sprint, dediquei meu tempo para aprender a linguagem de programação Python. Python é amplamente utilizado na ciência de dados e automação de tarefas. Nesta sprint, adquiri conhecimentos básicos sobre a linguagem e sua sintaxe.
 
-**CONTEÚDO DETALHADO** -[Sprint3]()
+**CONTEÚDO DETALHADO** -[Sprint3](https://github.com/joaoFelipeSales/Programa-Data-Analytics-AWS-CompassUol/blob/main/SprintsCompassUOL/Sprint3.txt)
 
 **Sprint 4: Python Funcional, Containers e ML**
 Durante a quarta sprint, aprofundei meus conhecimentos em Python, explorando a programação funcional, o uso de containers, como o Docker, e tive uma introdução ao aprendizado de máquina (ML). Aprender a usar essas ferramentas e conceitos foi fundamental para desenvolver aplicativos escaláveis e manipular grandes volumes de dados.
