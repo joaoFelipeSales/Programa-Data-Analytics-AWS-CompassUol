@@ -1,9 +1,9 @@
 import requests
 import pandas as pd
 
-api_key = "14112cfa08232e0c3fda55940c07e5a6"
+api_key = ""
 
-url = f"https://api.themoviedb.org/3/movie/top_rated?api_key=14112cfa08232e0c3fda55940c07e5a6&language=pt-BR"
+url = f"https://api.themoviedb.org/3/movie/top_rated?api_key=&language=pt-BR"
 
 response = requests.get(url)
 data = response.json()
