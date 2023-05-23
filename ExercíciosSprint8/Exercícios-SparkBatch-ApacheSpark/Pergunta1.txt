@@ -1,0 +1,19 @@
+Nesta etapa, adicione código para ler o arquivo nomes_aleatorios.txt através do comando spark.read.csv.
+Carregue-o para dentro de um dataframe chamado df_nomes e, por fim, liste algumas linhas através do
+método show. Exemplo: df_nomes.show(5)
+
+import shutil
+
+shutil.copyfile(r'C:\Users\Pichau\Desktop\Compass Uol\Programa-Data-Analytics-AWS-CompassUol\ExercíciosSprint8-Parte2Desafio\Exercicios-SparkBatch\nomes_aleatorios.txt', 'nomes_aleatorios.txt')
+
+from pyspark.sql import SparkSession
+from pyspark import SparkContext, SQLContext
+
+spark = SparkSession \
+    .builder \
+    .master("local[*]") \
+    .appName("Exercicio Intro") \
+    .getOrCreate()
+
+df_nomes = spark.read.csv("nomes_aleatorios.txt", header=False)
+df_nomes.show(5)

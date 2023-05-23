@@ -1,0 +1,14 @@
+Repita o processo da Pergunta 8 utilizando Spark SQL
+
+
+# Registrar o DataFrame como uma tabela temporária
+df_nomes.createOrReplaceTempView("pessoas")
+
+# Executar a consulta SQL para contar o número de pessoas da geração Millennials
+count_millennials = spark.sql("""
+    SELECT COUNT(*) AS count_millennials
+    FROM pessoas
+    WHERE AnoNascimento >= 1980 AND AnoNascimento <= 1994
+""").collect()[0][0]
+
+print("Número de pessoas da geração Millennials:", count_millennials)
