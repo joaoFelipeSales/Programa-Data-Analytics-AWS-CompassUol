@@ -1,0 +1,14 @@
+Usando o método select do Dataframe df_nomes, Conte o número de pessoas que são da geração 
+Millennials (nascidos entre 1980 e 1994) no Dataset
+
+
+from pyspark.sql.functions import count
+
+# Filtrar as pessoas que são da geração Millennials
+df_millennials = df_nomes.select("*").filter((df_nomes.AnoNascimento >= 1980) & (df_nomes.AnoNascimento <= 1994))
+
+# Contar o número de pessoas da geração Millennials
+count_millennials = df_millennials.count()
+
+# Exibir o resultado
+print("Número de pessoas da geração Millennials:", count_millennials)

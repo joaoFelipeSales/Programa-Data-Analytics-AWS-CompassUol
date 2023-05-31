@@ -1,0 +1,7 @@
+Ao dataframe (df_nomes), adicione nova coluna chamada AnoNascimento e atribua para cada linha 
+um valor de ano entre 1945 e 2010, de forma aleatória. 
+
+
+from pyspark.sql.functions import lit, rand, round
+
+df_nomes = df_nomes.withColumn("AnoNascimento", lit(round(rand() * (2010 - 1945) + 1945).cast("integer")))
