@@ -86,8 +86,7 @@ A sexta sprint continuou a explorar a computação em nuvem, com ênfase em tóp
 **Sprint 7: Arquitetura Lambda / Apache Hadoop / Apache Spark**
 Durante a sétima sprint, mergulhei na arquitetura Lambda, no Apache Hadoop e no Apache Spark. Essas tecnologias são amplamente utilizadas para processamento de big data e análise em escala. Aprendi sobre a arquitetura Lambda, que combina fluxos de dados em tempo real e processamento em lote, e como utilizar o Hadoop e o Spark para trabalhar com grandes conjuntos de dados.
 
-<<<<<<< HEAD
 **CONTEÚDO DETALHADO** -[Sprint7]() * EM CONSTRUÇÃO *
-=======
-**CONTEÚDO DETALHADO** -[Sprint7]() * EM CONSTRUÇÃO *
->>>>>>> 4f249630620189c2e66188181fc16faca63db221
+
+
+
