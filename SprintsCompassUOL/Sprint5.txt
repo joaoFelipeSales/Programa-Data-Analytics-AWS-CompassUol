@@ -1,0 +1,32 @@
+ Durante a quinta sprint do meu treinamento, fui apresentado ao fascinante mundo da computação em nuvem, 
+com um foco específico na plataforma Amazon Web Services (AWS). Durante esse período, mergulhei nos conceitos
+fundamentais da AWS e adquiri conhecimentos valiosos sobre a criação e gerenciamento de instâncias de servidor
+virtual, armazenamento em nuvem e serviços de banco de dados.
+
+ Ao longo da sprint, dediquei-me a entender como a AWS funciona e como posso aproveitar seus recursos 
+para impulsionar projetos e soluções na nuvem. Comecei estudando as diferentes opções de instâncias de
+servidor virtual disponíveis na AWS, que me permitiram criar ambientes de computação flexíveis e escaláveis.
+Aprendi a criar, configurar e gerenciar essas instâncias, ajustando-as às necessidades específicas de cada
+projeto.
+
+ Além disso, mergulhei no mundo do armazenamento em nuvem, explorando os serviços oferecidos pela AWS. 
+Aprendi sobre o Amazon S3 (Simple Storage Service), um serviço altamente escalável e durável que me permite
+armazenar e recuperar grandes quantidades de dados de forma segura. Também explorei o Amazon EBS
+(Elastic Block Store), que oferece volumes de armazenamento persistentes e de alto desempenho para 
+minhas instâncias de servidor.
+
+ Uma parte emocionante da minha jornada na quinta sprint foi o estudo dos serviços de banco de dados da AWS.
+Aprendi sobre o Amazon RDS (Relational Database Service), um serviço totalmente gerenciado que facilita a 
+criação, a operação e a escalabilidade de bancos de dados relacionais na nuvem. Também mergulhei no Amazon
+DynamoDB, um serviço de banco de dados NoSQL altamente escalável e flexível.
+
+ Durante toda a sprint, pude colocar em prática o que aprendi, experimentando a criação de instâncias de 
+servidor virtual, o armazenamento de dados na nuvem e a configuração de bancos de dados. Aprendi a utilizar
+a interface da AWS para gerenciar e monitorar meus recursos na nuvem, bem como a utilizar as ferramentas 
+de automação e orquestração, como o AWS CloudFormation e o AWS Lambda.
+
+ Essa sprint foi repleta de aprendizado e me proporcionou uma visão abrangente e prática da computação em
+nuvem, especificamente na plataforma AWS. Estou animado para aplicar essas habilidades em projetos futuros
+e explorar ainda mais os recursos avançados oferecidos pela AWS. A computação em nuvem é definitivamente 
+um campo empolgante e essencial nos dias de hoje, e estou ansioso para continuar expandindo meus 
+conhecimentos nessa área.
