@@ -1,6 +1,0 @@
-Nesta etapa, será necessário adicionar código para renomear a coluna para Nomes, imprimir o esquema e 
-mostrar 10 linhas do dataframe.
-
-df_nomes = df_nomes.withColumnRenamed("_c0", "Nomes")
-df_nomes.printSchema()
-df_nomes.show(10)

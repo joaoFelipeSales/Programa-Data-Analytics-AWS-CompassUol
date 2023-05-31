@@ -1,7 +1,0 @@
->>> text_file = spark.sparkContext.textFile("README.md")
->>>
->>> word_counts = text_file.flatMap(lambda line: line.split(" ")).countByValue() 
-[Stage 0:>                                                          (0 + 2) / 2]
->>> word_counts = text_file.flatMap(lambda line: line.split(" ")).countByValue()
->>> for word, count in word_counts.items():
-         print(f"{word}: {count}")

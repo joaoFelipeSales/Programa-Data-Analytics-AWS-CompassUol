@@ -1,8 +1,0 @@
-Usando Spark SQL repita o processo da Pergunta 6. Lembre-se que, para trabalharmos com SparkSQL,
-precisamos registrar uma tabela temporária e depois executar o comando SQL. Abaixo um exemplo de
-como executar comandos SQL com SparkSQL:
-
-
-df_nomes.createOrReplaceTempView("pessoas")
-df_select = spark.sql("SELECT * FROM pessoas WHERE AnoNascimento >= 2000 LIMIT 10")
-df_select.show()
