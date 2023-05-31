@@ -1,8 +1,8 @@
-<<<<<<< HEAD
+
  # Programa-Data-Analytics-AWS-CompassUol
-=======
+
 # Programa-Data-Analytics-AWS-CompassUol
->>>>>>> 4f249630620189c2e66188181fc16faca63db221
+
 
 Meu nome é **João Felipede Melo Sales** tenho 34 anos, atualmente morando na cidade de *Presidente Epitácio*, interior do estado de São Paulo, estou cursando **Analise e Desenvolvimento de Sistemas** na *UNICESUMAR*, faço o curso a na modalidade EAD, estou no (3°) semestre, nao possuo experiencia na area de tecnologia.
 
