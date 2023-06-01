@@ -1,0 +1,57 @@
+Durante a Sprint 7, foquei em explorar a arquitetura Lambda, bem como as tecnologias Apache Hadoop e 
+Apache Spark. Essas tecnologias são amplamente utilizadas para processamento e análise de big data em 
+escala. Vou detalhar um pouco mais sobre cada uma delas:
+
+-Arquitetura Lambda:
+A arquitetura Lambda é um modelo de processamento de dados que combina fluxos de dados em tempo real e 
+processamento em lote. Ela é projetada para lidar com grandes volumes de dados de forma eficiente e 
+escalável. A arquitetura Lambda permite que os dados sejam processados em tempo real, garantindo respostas
+rápidas a consultas e análises, ao mesmo tempo em que permite o processamento em lote para realizar tarefas
+mais complexas e intensivas em recursos.
+
+-Apache Hadoop:
+O Apache Hadoop é um framework de código aberto que permite o processamento distribuído de grandes conjuntos
+de dados em clusters de computadores. Ele consiste em dois componentes principais: o Hadoop Distributed 
+File System (HDFS) e o Hadoop MapReduce. O HDFS é um sistema de arquivos distribuído que divide os dados
+em blocos e os armazena em diferentes nós de um cluster. O MapReduce é um modelo de programação que permite
+processar e analisar os dados de forma paralela em vários nós do cluster.
+
+-Apache Spark:
+O Apache Spark é um framework de processamento de dados em escala que oferece velocidade e eficiência. 
+Ele é projetado para trabalhar com grandes volumes de dados e executar tarefas complexas de análise de 
+forma rápida e distribuída. O Spark suporta diferentes tipos de processamento, incluindo processamento 
+em lote, processamento em tempo real e processamento de dados em memória. Ele fornece uma API amigável 
+para escrever aplicativos e oferece suporte a várias linguagens de programação, como Python, Scala e Java.
+
+ Durante essa sprint, eu aprendi sobre os conceitos e princípios por trás da arquitetura Lambda, bem como 
+como utilizar o Apache Hadoop e Apache Spark para processar grandes volumes de dados. Essas tecnologias são 
+extremamente relevantes para lidar com o desafio do big data, permitindo o processamento escalável e eficiente
+de dados em diferentes cenários.
+
+ Além de explorar a arquitetura Lambda, o Apache Hadoop e o Apache Spark, também foram realizados laboratórios
+com tecnologias adicionais do AWS, como AWS Glue e Amazon Athena, e com bancos de dados Redshift e MongoDB.
+
+-AWS Glue:
+O AWS Glue é um serviço de ETL (Extract, Transform, Load) totalmente gerenciado que facilita a preparação
+e carregamento de dados para análise. Ele permite a descoberta automática de metadados, a criação de 
+catálogos de dados e a execução de transformações em grande escala. O Glue é usado para extrair dados
+de várias fontes, transformá-los em um formato adequado e carregá-los em destinos como o Amazon S3 ou 
+bancos de dados do AWS.
+
+-Amazon Athena:
+A Amazon Athena é um serviço de consulta interativa e sem servidor que permite analisar dados diretamente
+no Amazon S3 usando SQL padrão. Com o Athena, é possível executar consultas ad-hoc em grandes volumes de
+dados sem a necessidade de criar infraestrutura ou gerenciar recursos. Ele é particularmente útil quando
+se trabalha com dados armazenados no formato colunar do Parquet ou no formato de log do Apache.
+
+-Amazon Redshift:
+O Amazon Redshift é um serviço de data warehousing rápido e totalmente gerenciado. Ele é projetado para 
+análise de grandes volumes de dados e oferece escalabilidade elástica para suportar cargas de trabalho 
+intensivas em consulta. O Redshift permite armazenar e analisar dados em petabytes, oferecendo alto desempenho,
+compressão de dados avançada e recursos de segurança robustos.
+
+MongoDB:
+O MongoDB é um banco de dados NoSQL orientado a documentos que fornece flexibilidade e escalabilidade para
+lidar com dados não estruturados ou semiestruturados. Ele é adequado para aplicativos modernos que requerem
+esquemas flexíveis e escalabilidade horizontal. O MongoDB é amplamente utilizado em cenários onde a 
+velocidade e a capacidade de lidar com grandes volumes de dados são essenciais.

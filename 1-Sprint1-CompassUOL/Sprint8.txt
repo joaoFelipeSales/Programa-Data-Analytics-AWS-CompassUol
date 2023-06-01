@@ -1,0 +1,21 @@
+ Durante a Sprint 8, uma das atividades foi realizar a ingestão de dados utilizando o AWS Lambda. O AWS 
+Lambda é um serviço serverless da AWS que permite executar código de forma escalável e sem a necessidade 
+de provisionar ou gerenciar servidores.
+
+ No contexto da ingestão de dados, foram utilizadas as APIs do TMDB (The Movie Database) e do OMDB 
+(Open Movie Database) para obter informações sobre filmes e séries. O código Python foi implementado no 
+AWS Lambda para consumir essas APIs e obter os dados necessários para enriquecer as informações dos filmes 
+e séries carregados na Etapa 1.
+
+ Após obter os dados do TMDB e do OMDB, o código Python utilizou a biblioteca boto3 para persistir esses dados
+no Amazon S3, seguindo o padrão de path definido. Os dados foram armazenados na camada RAW Zone e mantiveram
+o formato original, como JSON.
+
+ O AWS Lambda permitiu executar essa tarefa de forma automática e escalável. É possível configurar o Lambda 
+para ser acionado periodicamente, seja por um agendador interno, como o CloudWatch Event ou o Amazon 
+EventBridge, ou por acionadores externos, como uma alteração no Amazon S3 ou uma chamada de API.
+
+ Ao realizar a ingestão de dados utilizando o AWS Lambda, foi possível enriquecer os dados dos filmes e séries
+carregados na Etapa 1 com informações adicionais obtidas do TMDB e do OMDB. Essa etapa de ingestão de dados 
+é fundamental para a preparação dos dados e para fornecer informações complementares aos dados originais, 
+permitindo uma análise mais qualificada e abrangente.
