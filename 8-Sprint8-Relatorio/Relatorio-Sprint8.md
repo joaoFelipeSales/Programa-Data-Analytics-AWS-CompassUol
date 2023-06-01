@@ -2,7 +2,7 @@ Introdução
 O objetivo deste relatório é apresentar um resumo das principais aprendizagens e realizações durante a Sprint 8. Durante esse período, foram abordados vários tópicos e alcançados diversos marcos importantes. Este relatório fornecerá uma visão geral dessas conquistas.
 
 Desenvolvimento do Projeto
-Durante a Sprint 8, concentramos nossos esforços nas seguintes atividades:
+Durante a Sprint 8, foi realizado a ingestao de dados q
 
 Implementação de novos recursos: Durante esta sprint, nossa equipe trabalhou no desenvolvimento e implementação de novos recursos solicitados pelos clientes. Esses recursos incluíam a integração de um sistema de pagamento online e a melhoria da experiência do usuário em determinadas áreas do aplicativo.
 
