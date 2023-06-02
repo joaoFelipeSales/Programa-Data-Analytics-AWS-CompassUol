@@ -11,6 +11,7 @@ Ao efetuar as requisições, nosso foco recaiu sobre filmes dos gêneros **fanta
 As **funções Lambda** que desenvolvemos estão localizadas no link abaixo, disponíveis para inspeção e referência. Além disso, durante a **Sprint 8**, também realizamos exercícios envolvendo o **Spark**, aprimorando nossas habilidades nessa área.
 
 [Funcão Lambda OMDB](https://github.com/joaoFelipeSales/Programa-Data-Analytics-AWS-CompassUol/blob/main/8-Sprint8-Relatorio-Fun%C3%A7%C3%A3oLambda/LambdaDadosOMDB.py)
+
 [Funcao Lambda TMDB](https://github.com/joaoFelipeSales/Programa-Data-Analytics-AWS-CompassUol/blob/main/8-Sprint8-Relatorio-Fun%C3%A7%C3%A3oLambda/LambdaDadosTMDB.py)
 
 ## Conclusão
