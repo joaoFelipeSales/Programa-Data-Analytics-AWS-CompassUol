@@ -1,6 +1,3 @@
-
- # Programa-Data-Analytics-AWS-CompassUol
-
 # Programa-Data-Analytics-AWS-CompassUol
 
 
