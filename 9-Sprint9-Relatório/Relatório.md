@@ -12,11 +12,15 @@ Com base nessa normatização, criei as seguintes tabelas utilizando o código a
 
 ## Tarefa2: Modelagem Dimensional
 
-Na tarefa2, realizamos uma modelagem dimensional. Criei as seguintes dimensões com os códigos disponíveis no seguinte [link](link_modelagem_dimensional). Também incluí a print das views resultantes.
+Na tarefa2, realizamos uma modelagem dimensional. Criei as seguintes views dimensões e a tabela fato que estao nos seguintes links.
 
-[Print das views](link_print_views)
+[ModelagemDimencional](https://github.com/joaoFelipeSales/Programa-Data-Analytics-AWS-CompassUol/blob/main/9-Sprint9-Modelagem/Normaliza%C3%A7%C3%A3o/ModelagemDimensional.png). 
 
-## Tarefa 3: Camada Trusted
+Também incluí a print das views resultantes.
+
+[Print das views](https://github.com/joaoFelipeSales/Programa-Data-Analytics-AWS-CompassUol/blob/main/9-Sprint9-Modelagem/Normaliza%C3%A7%C3%A3o/Tarefa2-ModelagemDimensional.sql)
+
+## Tarefa3: Camada Trusted
 
 O objetivo da tarefa 3 era criar a camada "Trusted". Eu fiz a camada "Trusted" a partir do arquivo gerado na sprint anterior. No meu caso, tive que usar duas APIs com muitas requisições, então desenvolvi dois scripts para realizar esse processo. Aqui seguem os links para os scripts: [Trusted-OMDB](link_trusted_omdb) e [Trusted-OMDB](link_trusted_omdb). O arquivo resultante dessas duas etapas foi salvo na camada "Trusted".
 
