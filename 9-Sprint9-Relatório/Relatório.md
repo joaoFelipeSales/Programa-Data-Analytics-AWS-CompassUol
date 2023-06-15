@@ -6,7 +6,8 @@ Na tarefa1, que teve como tema "Modelagem Relacional - Normatização", realizei
 
 Com base nessa normatização, criei as seguintes tabelas utilizando o código abaixo no BD Browser (SQLite). Segue o código utilizado para gerar as tabelas e popular elas:
 
-[Código](https://github.com/joaoFelipeSales/Programa-  Data-Analytics-AWS-CompassUol/blob/main/9-Sprint9-Modelagem/Normaliza%C3%A7%C3%A3o/Tarefa1-Modelagem%20Relacional-Normaliza%C3%A7%C3%A3o.sql)
+[Código](https://github.com/joaoFelipeSales/Programa-Data-Analytics-AWS-CompassUol/blob/main/9-Sprint9-Modelagem/Normaliza%C3%A7%C3%A3o/Tarefa1-Modelagem%20Relacional-Normaliza%C3%A7%C3%A3o.sql)
+
 [Modelagem](https://github.com/joaoFelipeSales/Programa-Data-Analytics-AWS-CompassUol/blob/main/9-Sprint9-Modelagem/Normaliza%C3%A7%C3%A3o/ModelagemLogica.png)
 
 ## Tarefa2: Modelagem Dimensional
