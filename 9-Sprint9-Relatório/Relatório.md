@@ -1,18 +1,34 @@
-Relatorio da Sprint9
+# Relatório da Sprint 9
 
-tarefa 1
+## Tarefa1: Modelagem Relacional - Normatização
 
-na tarefa um que teve com o tema modelagem relacional - normatizao
-eu fiz a seguinte normatizaao ( 1NF, 2NF, 3NF)
+Na tarefa1, que teve como tema "Modelagem Relacional - Normatização", realizei a seguinte normatização (1NF, 2NF, 3NF). [Link para a normatização](https://github.com/joaoFelipeSales/Programa-Data-Analytics-AWS-CompassUol/blob/main/9-Sprint9-Modelagem/Normaliza%C3%A7%C3%A3o/Tarefa1-Normaliza%C3%A7%C3%A3o.txt).
 
-segue o link
+Com base nessa normatização, criei as seguintes tabelas utilizando o código abaixo no BD Browser (SQLite). Segue o código utilizado para criar as tabelas:
 
-comi isso fiz as seguintes criacoes das tabelas, segue o codigo que foi usado para creiar as tabvelas e print delas geradas, usei pra fazer o BD Browser(SQLite)
 
-link codigo
-link print
+Aqui está o print das tabelas geradas:
 
-tarefa 2
+![Print das tabelas geradas](link_print)
 
-na tarefa 2 tinhamos que fazer uma modelagem dimensional,  eu fiz a criacao das seguintes dimensoes com os  codigos que segue no , LINK, e segue a print das view PRINT.
+## Tarefa 2: Modelagem Dimensional
 
+Na tarefa 2, realizamos uma modelagem dimensional. Criei as seguintes dimensões com os códigos disponíveis no seguinte [link](link_modelagem_dimensional). Também incluí a print das views resultantes.
+
+![Print das views](link_print_views)
+
+## Tarefa 3: Camada Trusted
+
+O objetivo da tarefa 3 era criar a camada "Trusted". Eu fiz a camada "Trusted" a partir do arquivo gerado na sprint anterior. No meu caso, tive que usar duas APIs com muitas requisições, então desenvolvi dois scripts para realizar esse processo. Aqui seguem os links para os scripts: [Trusted-OMDB](link_trusted_omdb) e [Trusted-OMDB](link_trusted_omdb). O arquivo resultante dessas duas etapas foi salvo na camada "Trusted".
+
+## Tarefa 4: Modelagem dos Dados
+
+Na tarefa 4, realizamos a modelagem dos dados para o tema do desafio final. Criei as tabelas no Data Catalog no Glue, resultando nas seguintes tabelas: "Dados-TMDB" e "Dados-OMDB". Aqui está a print das duas tabelas:
+
+![Print das tabelas](link_print_tabelas)
+
+## Tarefa 5: Processamento dos Dados
+
+Na tarefa 5, processamos os dados que serão utilizados, que foram verificados nas etapas anteriores, e os salvamos no formato Parquet na camada "Refined". Seguem os links para os códigos utilizados: [Refined-TMDB](link_refined_tmdb) e [Refined-OMDB](link_refined_omdb).
+
+Esse é o relatório da Sprint 9, com melhorias feitas utilizando a sintaxe Markdown para torná-lo mais legível e organizado.
