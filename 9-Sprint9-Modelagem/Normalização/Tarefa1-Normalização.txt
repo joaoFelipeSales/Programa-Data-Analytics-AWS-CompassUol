@@ -21,6 +21,7 @@ qtdDiaria
 vlrDiaria
 dataEntrega
 horaEntrega
+kmCarro
 idVendedor (FK)
 
 tb_cliente:
@@ -32,7 +33,6 @@ paisCliente
 
 tb_carro:
 idCarro (PK)
-kmCarro
 classiCarro
 marcaCarro
 modeloCarro
@@ -44,7 +44,7 @@ tipoCombustivel
 Para alcançar a 3ª Forma Normal, devemos garantir que todas as dependências funcionais transitivas 
 sejam eliminadas. Podemos criar mais duas tabelas para separar as informações sobre o vendedore combustivel.
 
-tb_locacao:
+tb_locacaonova:
 idLocacao (PK)
 idCliente (FK)
 idCarro (FK)
@@ -54,6 +54,7 @@ qtdDiaria
 vlrDiaria
 dataEntrega
 horaEntrega
+kmCarro
 idVendedor (FK)
 
 tb_cliente:
@@ -65,7 +66,6 @@ paisCliente
 
 tb_carro:
 idCarro (PK)
-kmCarro
 classiCarro
 marcaCarro
 modeloCarro

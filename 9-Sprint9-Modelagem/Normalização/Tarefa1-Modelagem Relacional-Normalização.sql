@@ -25,7 +25,7 @@ CREATE TABLE "tb_vendedor" (
 	"estadoVendedor" varchar(40)
 )   
 
-CREATE TABLE "tb_locacao" (
+CREATE TABLE "tb_locacaonova" (
 	"idLocacao"	int,
 	"idCliente"	int,
 	"idCarro"	int,
@@ -54,7 +54,7 @@ FROM "tb_locacao";
 
 
 INSERT INTO "tb_carro" ("idCarro", "kmCarro", "classiCarro", "marcaCarro", "modeloCarro", "anoCarro", "idCombustivel")
-SELECT DISTINCT "idCarro", "kmCarro", "classiCarro", "marcaCarro", "modeloCarro", "anoCarro", "idCombustivel"
+SELECT DISTINCT "idCarro", "classiCarro", "marcaCarro", "modeloCarro", "anoCarro", "idCombustivel"
 FROM "tb_locacao";
 
 INSERT INTO "tb_vendedor" ("idVendedor", "nomeVendedor", "sexoVendedor", "estadoVendedor")
@@ -65,10 +65,10 @@ FROM "tb_locacao";
 INSERT INTO "tb_locacaonova" (
     "idLocacao", "idCliente", "idCarro", "idVendedor", 
     "dataLocacao", "horaLocacao", "qtdDiaria", "vlrDiaria",
-    "dataEntrega", "horaEntrega"
+    "dataEntrega", "horaEntrega", "kmCarro"
 )
 SELECT DISTINCT 
     "idLocacao", "idCliente", "idCarro", "idVendedor", 
     "dataLocacao", "horaLocacao", "qtdDiaria", "vlrDiaria",
-    "dataEntrega", "horaEntrega"
+    "dataEntrega", "horaEntrega", "kmCarro"
 FROM "tb_locacao";

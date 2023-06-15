@@ -4,18 +4,16 @@
 
 Na tarefa1, que teve como tema "Modelagem Relacional - Normatização", realizei a seguinte normatização (1NF, 2NF, 3NF). [Link para a normatização](https://github.com/joaoFelipeSales/Programa-Data-Analytics-AWS-CompassUol/blob/main/9-Sprint9-Modelagem/Normaliza%C3%A7%C3%A3o/Tarefa1-Normaliza%C3%A7%C3%A3o.txt).
 
-Com base nessa normatização, criei as seguintes tabelas utilizando o código abaixo no BD Browser (SQLite). Segue o código utilizado para criar as tabelas:
+Com base nessa normatização, criei as seguintes tabelas utilizando o código abaixo no BD Browser (SQLite). Segue o código utilizado para gerar as tabelas e popular elas:
 
+[Código](https://github.com/joaoFelipeSales/Programa-  Data-Analytics-AWS-CompassUol/blob/main/9-Sprint9-Modelagem/Normaliza%C3%A7%C3%A3o/Tarefa1-Modelagem%20Relacional-Normaliza%C3%A7%C3%A3o.sql)
+[Modelagem](https://github.com/joaoFelipeSales/Programa-Data-Analytics-AWS-CompassUol/blob/main/9-Sprint9-Modelagem/Normaliza%C3%A7%C3%A3o/ModelagemLogica.png)
 
-Aqui está o print das tabelas geradas:
+## Tarefa2: Modelagem Dimensional
 
-![Print das tabelas geradas](link_print)
+Na tarefa2, realizamos uma modelagem dimensional. Criei as seguintes dimensões com os códigos disponíveis no seguinte [link](link_modelagem_dimensional). Também incluí a print das views resultantes.
 
-## Tarefa 2: Modelagem Dimensional
-
-Na tarefa 2, realizamos uma modelagem dimensional. Criei as seguintes dimensões com os códigos disponíveis no seguinte [link](link_modelagem_dimensional). Também incluí a print das views resultantes.
-
-![Print das views](link_print_views)
+[Print das views](link_print_views)
 
 ## Tarefa 3: Camada Trusted
 
