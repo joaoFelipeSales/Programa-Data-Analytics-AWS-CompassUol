@@ -2,7 +2,8 @@
 
 ## Tarefa1: Modelagem Relacional - Normatização
 
-Na tarefa1, que teve como tema "Modelagem Relacional - Normatização", realizei a seguinte normatização (1NF, 2NF, 3NF). [Link para a normatização](https://github.com/joaoFelipeSales/Programa-Data-Analytics-AWS-CompassUol/blob/main/9-Sprint9-Modelagem/Normaliza%C3%A7%C3%A3o/Tarefa1-Normaliza%C3%A7%C3%A3o.txt).
+Na tarefa1, que teve como tema "Modelagem Relacional - Normatização", realizei a seguinte normatização (1NF, 2NF, 3NF).
+[Normatização](https://github.com/joaoFelipeSales/Programa-Data-Analytics-AWS-CompassUol/blob/main/9-Sprint9-Modelagem/Normaliza%C3%A7%C3%A3o/Tarefa1-Normaliza%C3%A7%C3%A3o.txt).
 
 Com base nessa normatização, criei as seguintes tabelas utilizando o código abaixo no BD Browser (SQLite). Segue o código utilizado para gerar as tabelas e popular elas:
 
