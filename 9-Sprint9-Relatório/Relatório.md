@@ -14,11 +14,12 @@ Com base nessa normatização, criei as seguintes tabelas utilizando o código a
 
 Na tarefa2, realizamos uma modelagem dimensional. Criei as seguintes views dimensões e a tabela fato que estao nos seguintes links.
 
-[ModelagemDimencional](https://github.com/joaoFelipeSales/Programa-Data-Analytics-AWS-CompassUol/blob/main/9-Sprint9-Modelagem/Normaliza%C3%A7%C3%A3o/ModelagemDimensional.png). 
+[Modelagem Dimencional](https://github.com/joaoFelipeSales/Programa-Data-Analytics-AWS-CompassUol/blob/main/9-Sprint9-Modelagem/Normaliza%C3%A7%C3%A3o/ModelagemDimensional.png). 
 
-Também incluí a print das views resultantes.
+Também incluí a print e código das views.
 
-[Print das views](https://github.com/joaoFelipeSales/Programa-Data-Analytics-AWS-CompassUol/blob/main/9-Sprint9-Modelagem/Normaliza%C3%A7%C3%A3o/Tarefa2-ModelagemDimensional.sql)
+[Print das views](https://github.com/joaoFelipeSales/Programa-Data-Analytics-AWS-CompassUol/blob/main/9-Sprint9-Modelagem/Normaliza%C3%A7%C3%A3o/ViewDimensoes.png)
+[Código](https://github.com/joaoFelipeSales/Programa-Data-Analytics-AWS-CompassUol/blob/main/9-Sprint9-Modelagem/Normaliza%C3%A7%C3%A3o/Tarefa2-ModelagemDimensional.sql)
 
 ## Tarefa3: Camada Trusted
 
