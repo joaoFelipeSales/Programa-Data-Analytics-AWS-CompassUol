@@ -19,6 +19,7 @@ Na tarefa2, realizamos uma modelagem dimensional. Criei as seguintes views dimen
 Também incluí a print e código das views.
 
 [Print das views](https://github.com/joaoFelipeSales/Programa-Data-Analytics-AWS-CompassUol/blob/main/9-Sprint9-Modelagem/Normaliza%C3%A7%C3%A3o/ViewDimensoes.png)
+
 [Código](https://github.com/joaoFelipeSales/Programa-Data-Analytics-AWS-CompassUol/blob/main/9-Sprint9-Modelagem/Normaliza%C3%A7%C3%A3o/Tarefa2-ModelagemDimensional.sql)
 
 ## Tarefa3: Camada Trusted
