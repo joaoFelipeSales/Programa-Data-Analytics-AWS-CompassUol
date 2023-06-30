@@ -41,4 +41,4 @@ Na tarefa 5, processamos os dados que serão utilizados, que foram verificados n
 
 [JobsGlue](https://github.com/joaoFelipeSales/Programa-Data-Analytics-AWS-CompassUol/blob/main/9-Sprint9-DesafiPartelll/Tarefa5-Processamento%20da%20Refined/JobsGlue.png)
 
-Esse é o relatório da Sprint 9, com melhorias feitas utilizando a sintaxe Markdown para torná-lo mais legível e organizado.
+
